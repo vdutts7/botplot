@@ -1,0 +1,4 @@
+env.json
+out.txt
+agent/env.json
+**/node_modules

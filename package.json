@@ -1,0 +1,15 @@
+{
+  "name": "botplot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm:start --prefix agent\" \"npm:start --prefix ui-admin\"",
+    "install": "cd agent && npm install && cd ../ui-admin && npm install"
+  },
+  "author": "vdutts7",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
